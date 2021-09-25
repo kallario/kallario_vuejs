@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kalla Rio Tecnologia e Logística Ltda</title>
+	<link rel="canonical" href="https://www.kallario.com.br">
+	<meta name="title" content="Kalla Rio - Desenvolvimento de Sistemas">
+    <meta name="Keywords" content="construir sites, fazer sites, Kalla Rio, Tecnologia e Logística, Criação de Site, Desenvolvimento de Site, E-mail Marketing, Mídias Sociais, Internet, site responsível, sites, web" />
+
+    <meta name="description" content="Plataforma para Criação de Sites Profissionais Otimizados para o Google. Melhor empresa de criação de sites e sistemas web da região sul-fluminense?" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Criação de Sites Profissionais" />
+    <meta property="og:description" content="Plataforma para Criação de Sites Profissionais Otimizados para o Google. Melhor empresa de criação de sites e sistemas web da região sul-fluminense?" />
+    <meta property="og:url" content="https://www.kallario.com.br/" />
+    <meta property="site:published_time" content="2021-09-30" />
+    <meta property="site:modified_time" content="2021-09-30" />
+    <meta property="site:author" content="https://www.kallario.com.br" />
+    <meta property="site:section" content="Desenvolvimento" />
+    <meta property="og:site_name" content="Criar Sites - kallario.com.br" />
+    <meta name="twitter:card" content="summary" />
+
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <!--Google Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css" integrity="sha512-TPigxKHbPcJHJ7ZGgdi2mjdW9XHsQsnptwE+nOUWkoviYBn0rAAt0A5y3B1WGqIHrKFItdhZRteONANT07IipA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/fontawesome.min.js" integrity="sha512-txsWtB+FOLDRFFsBL75QF7cPI4rqSjVH7Q+jKuaLrEI+uPPfvNfX66+pHF/4pU4pgQS3ptJ25xOvC8Erm+P+rA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js" integrity="sha512-LW9+kKj/cBGHqnI4ok24dUWNR/e8sUD8RLzak1mNw5Ja2JYCmTXJTF5VpgFSw+VoBfpMvPScCo2DnKTIUjrzYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css" integrity="sha512-6KY5s6UI5J7SVYuZB4S/CZMyPylqyyNZco376NM2Z8Sb8OxEdp02e1jkKk/wZxIEmjQ6DRCEBhni+gpr9c4tvA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/js/bootstrap.min.js" integrity="sha512-ewfXo9Gq53e1q1+WDTjaHAGZ8UvCWq0eXONhwDuIoaH8xz2r96uoAYaQCm1oQhnBfRXrvJztNXFsTloJfgbL5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render 'welcome/shared/navbar' %>
+
+    <%= yield %>
+
+    <%= render 'welcome/shared/footer' %>
+
+  </body>
+</html>

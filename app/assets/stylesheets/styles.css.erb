@@ -1,0 +1,257 @@
+.navbar-custom {
+    height: 80px;
+    background-color: tomato;
+    color: white;
+    border-bottom: 2px solid black;
+  }
+
+  .navbar-custom a {
+      color:white;
+      font-size: 18px;
+      font-weight: 700;
+  }
+
+  .navbar-custom a:hover {
+    color:rgb(240, 218, 123);
+  }
+
+ .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+
+  .destaque {
+      min-height: 500px;
+      width: 100%;
+      background-image: url("/assets/plain-black-07.jpg");
+  }
+  
+  .destaque h1 {
+      color: white;
+      height: 50px;
+      padding-top: 50px;
+      text-align: center;
+      width: 100%;
+  }
+
+  .destaque .colunas {
+    padding: 70px;
+    color: white;
+  }
+
+  .destaque .colunas .titulo {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: salmon;
+  }  
+
+  .destaque .colunas .apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: left;    
+  }
+
+  .destaque .colunas .apresentacao .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .card_1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(63, 62, 62);
+    padding: 100px 60px 0  60px;
+  }
+
+  .card_1 h1 {
+    color: white;
+    padding-top: 30px;
+  }
+
+  .card_1 .image_card {
+      width: 50%;
+  }
+
+  .card_1 span {
+      color: orange;
+  }
+
+  .card_1 .texto p {
+    color: white;
+    font-size: 18px;
+  }
+
+  .card_1 ul {
+    color: white;
+    font-size: 18px;
+  }
+
+  .etapas {
+    height: 380px;
+    background-color: rgb(15, 15, 15);
+    padding: 0px 60px;
+  }
+
+  .card_2 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+  }  
+
+  .card_2 h1 {
+    color: orangered;
+    font-size: 24px;
+  }
+
+  .card_4 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;   
+    padding: 40px 60px; 
+  }
+
+  .card_4 h1 {
+    color: rgb(51, 49, 49);
+  }
+
+  .card_4 span {
+    color: orangered;
+  }
+
+  .card_4 .btn {
+      margin-top: 40px;
+  }
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+      background-color: orangered !important;
+      border: 1px solid orangered !important;
+  }
+
+  .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+      background-color: orangered !important;
+      border: 1px solid orangered !important;
+      color: white !important;
+  }  
+
+  .etapas .subtitulo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 15, 15);
+    padding: 50px 60px 20px 60px;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+  }
+
+  .etapas .subtitulo hr {
+      width: 100%;
+      border: 3px solid white;
+  }
+
+  .btn-custom {
+    color: white;
+    background-color: tomato;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .destaque .colunas .apresentacao .texto h1{
+    color:tomato;
+    text-transform: uppercase;
+    font-size: 22px;
+    justify-content: start;
+    padding: 30px 20px;
+    text-align: left;
+    width: 100%;
+  }  
+
+  .destaque .colunas .apresentacao .texto p{
+    font-size: 14px;
+    justify-content: start;
+    padding-left: 20px;
+  }    
+
+  .destaque .colunas hr {
+      width: 50%;
+      border: 3px solid white;
+  }
+
+  .destaque h6 {
+    color: rgb(226, 126, 11);
+  }  
+
+
+  .footer {
+    height: 350px;
+    background-image: url("/assets/plain-black-07.jpg");
+    color: white;
+  }
+
+  .footer .subtitulo {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px 20px 60px;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer .subtitulo hr {
+      width: 100%;
+      border: 3px solid white;
+  }  
+
+  .footer .subtitulo p {
+    text-align: center;
+  }
+
+  .footer .subtitulo .social {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .footer .subtitulo .social img {
+    padding: 5px;
+  }
+
+  .footer .contato {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      color: orange;
+  }
+
+  .footer .copyright {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 40px;
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+  }

@@ -1,0 +1,171 @@
+<div class="row">
+
+    <div class="col-md-12 col-lg-12 col-sm-12">
+
+    <div class="destaque">
+
+        <h1>CONQUISTE SUA <span style="color: orange;">PRESENÇA DIGITAL</span></h1>
+
+        <div class='row' style="padding-top: 20px;">
+
+            <div class="col-md-6 col-lg-6 col-sm-12">
+
+                <div class="colunas">
+                    
+                    <h6>Kalla Rio Tecnologia</h6>
+                    <h2>Criação de sites profissionais e personalizados</h2>
+                    <hr>
+                    <p>Criamos sites personalizados para cada tipo de empreendimento.</p>
+                    <div class="apresentacao">
+                        <%= image_tag('icon_3.png')  %>
+                        <div class="texto">
+                            <h1>Sites para empresas</h1>
+                            <p>Eleve a autoridade da sua marca e maximize seus resultados de conversão com nossos Sites Profissionais.</p>
+                        </div>
+                    </div>
+
+                    <div class="apresentacao">
+                        <%= image_tag('icon_2.png')  %>
+                        <div class="texto">
+                            <h1>Lojas Virtuais</h1>
+                            <p>Através de uma conversa com nossos especialistas, você será orientado sobre qual plataforma melhor atenderá suas necessidades.</p>
+                        </div>
+                    </div>
+
+                    <div class="apresentacao">
+                        <%= image_tag('icon_1.png')  %>
+                        <div class="texto">
+                            <h1>Desenvolvimento de Software</h1>
+                            <p>Há 12 anos criamos produtos digitais para médias e grandes empresas decolarem no mercado. Apps web, mobile e desktop 100% customizados. Entregas ágeis e de qualidade.</p>
+                        </div>
+
+                    </div>                
+
+                </div>
+
+            </div>
+            
+            <div class="col-md-6 col-lg-6 col-sm-12">
+
+                <div class="colunas">
+
+                    <p class="titulo">Sites profissionais a partir de R$ 800,00</p>
+
+                    <h3 style="padding-top: 30px;">Fale Conosco</h3>
+
+                    <p>Preencha o formulário abaixo e entre em contato conosco e receba um orçamento personalizado.</p>
+
+
+                            <%= form_with(model: @contato, local: true) do |form| %>
+
+                            <div class="mb-3">
+                                <label for="exampleInputNome" class="form-label">Seu nome</label>
+                                <%= form.text_field :nome, class: 'form-control' %>
+                                <div id="nomeHelp" class="form-text">Informe o seu nome completo.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Seu melhor email</label>
+                                <%= form.text_field :email, class: 'form-control' %>
+                                <div id="emailHelp" class="form-text">Informe o email que você mais utiliza.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputTelefone" class="form-label">Telefone</label>
+                                <%= form.text_field :telefone, class: 'form-control' %>
+                            </div>
+
+                            <div class="d-flex justify-content-center p-2">
+                                <button type="submit" class="btn btn-custom">Enviar</button>
+                            </div>
+
+                            <% end %>                
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+<section>
+
+    <div class="card_1">
+
+        <div class="texto">
+
+        <h1>Por que você precisa de um <span>site profissional</span> para a sua empresa?</h1>
+
+        <p>Criar um site possibilita que sua empresa tenha maior credibilidade perante o seu público-alvo, garantindo que os clientes notem o seu esforço em possuir um relacionamento no ambiente virtual. Isto proporcionará inúmeras vantagens que ajudarão a instituição a lembrar do porquê ter um site.</p>
+
+        <ul>
+            <li>CONFIANÇA NA EMPRESA</li>
+            <li>MAIOR EXPOSIÇÃO DA EMPRESA</li>
+            <li>CONQUISTA DE NOVOS CONSUMIDORES</li>
+            <li>CONTATO COM O PÚBLICO-ALVO NAS REDES SOCIAIS</li>
+            <li>CRESCIMENTO DAS VENDAS</li>
+        </ul>
+
+        </div>
+
+        <%= image_tag('graph_1.png', class: 'image_card') %>
+
+    </div>
+
+</section>
+
+<section class="etapas">
+
+<div class="subtitulo">
+    <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12">
+            <h2>Etapas para a construção de um site</h2>
+            <hr>
+        </div>
+    </div>
+</div>
+
+<div class="card_2">
+
+    <div class="row">
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+            <h1><i class="far fa-list-alt"></i> BRIEFING</h1>
+            <p> O briefing é um documento que reúne todas as ideias que o cliente tem para a realização de determinado projeto.</p>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+            <h1><i class="fas fa-code"></i> DESENVOLVIMENTO</h1>
+            <p>O desenvolvimento de websites abrange todas as ações, atualizações e operações necessárias para construir, manter e gerenciar um website.
+            </p>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+            <h1><i class="fas fa-mug-hot"></i> PRODUÇÃO</h1>
+            <p>Subir o site para o servidor é um dos primeiros passos para quem deseja publicar sua criação na internet. 
+               Hospedagem, registro de domínio e muito mais.
+            </p>
+        </div>                
+
+    </div>
+
+</div>
+
+</section>
+
+<section>
+
+    <div class="card_4">
+
+        <h1>Transforme o seu site em uma <span>ferramenta</span> de gerar negócios</h1>
+
+        <%= image_tag('agencia.png', class: "img-fluid") %>
+
+        <a href="#" class="btn btn-primary btn-lg">Solicite um orçamento</a>
+
+    </div>
+
+</section>
